@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1=parseInt(prompt("Enter number n1:  "))
+        let n2=parseInt(prompt("Enter number n2:  "))
+        let op=prompt("Enter Operator:  ")
+        ans =1
+        if(op ==("+")){
+            ans = n1+n2
+        }
+        else if(op ==("-")){
+            ans = n1-n2
+        }
+        else if(op ==("*")){
+            ans = n1*n2
+        }
+        else if(op ==("/")){
+            ans = n1/n2
+        }
+        else{
+            document.write("Envalid Operator: ")
+        }
+        alert("Ans = "+ans)
+    </script>
+</body>
+</html>

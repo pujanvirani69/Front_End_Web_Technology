@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1=parseInt(prompt("check the given number is armstrong number:  "))
+        let temp=0
+        let sum=0
+        let real=n1
+        let n2=n1
+        let digit=0
+        while(n2!=0){
+            digit++
+            n2=parseInt(n2/10)
+        }
+        while(n1!=0){
+            temp=n1%10
+            let ans=1
+            for(let i=1;i<=digit;i++){
+                ans=(temp*ans)
+            }
+            sum =ans+sum
+            n1=parseInt(n1/10)
+        }
+        if(sum==real){
+            alert("armstrong number : ")
+        }
+        else{
+            alert("not armstrong number")
+        }
+    </script>
+</body>
+</html>

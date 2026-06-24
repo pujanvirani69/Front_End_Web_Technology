@@ -1,0 +1,19 @@
+	C              JS 
+	SCANF		PROMPT      = DEFAULT STRING 
+	PRINTF		ALERT
+			CONFIRM
+ 	
+
+
+
+ STR   ->INT    PARSEINT
+STR -> FLOAT     PARSEFLOAT
+
+in pop-up box
+
+press ok to String is empty
+
+press cancel to string is null
+press confirm to ans is 1 and cancel press to 0 
+
+

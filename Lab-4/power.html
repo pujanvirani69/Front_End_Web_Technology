@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1=parseInt(prompt("Enter a Two digit Number : -"))
+        let temp1=parseInt(n1/10)
+        let temp2=n1%10
+        pow=1
+        for(let i=1;i<=temp2;i++){
+            pow=pow*temp1
+        }
+        document.write("Power = "+pow)
+    </script>
+</body>
+</html>

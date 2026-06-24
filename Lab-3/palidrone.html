@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1=parseInt(prompt("Enter a Number n1: " ))
+        let rev=0
+        let temp=0
+        let n2=n1
+        while(n1!=0){
+            temp =n1%10
+            rev = rev*10+temp
+            n1=parseInt(n1/10)
+        }
+        if(rev==n2){
+            alert("Palidrone number: ")
+        }
+        else{
+            alert("Not palidrone number: ")
+        }
+
+    </script>
+</body>
+</html>
