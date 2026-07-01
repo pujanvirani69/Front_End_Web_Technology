@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Pop</title>
+</head>
+<body>
+    <script>
+        let arr=[10,30,20,50,40,100];
+        document.write("original Array : - "+arr+"<br/><br/>")
+        arr.push(60);
+        document.write("Push Array "+arr+"<br/><br/>");
+        arr.pop(60);
+        document.write("pop array: -"+arr+"<br/><br/>");
+        arr.splice(1,2,60,20)
+        document.write("Splice array: -"+arr+"<br/><br/>");
+        arr1=arr.slice(0,4)
+        document.write("Slice array:-"+arr1+"<br/><br/>");
+        arr.shift(10)
+        document.write("shift array: -"+arr+"<br/><br/>");
+        arr.unshift(10)
+        document.write("Unshift array: -"+arr+"<br/><br/>");
+        arr.sort()
+        document.write("Sort array:-"+arr+"<br/><br/>")
+    </script>
+</body>
+</html>
